@@ -16,17 +16,34 @@ public class CoinSet
    }
    //ADD REMAINING CODE HERE
 
+   /**
+    * Add coin to an arrayList
+    * @param coin
+    */
    public void addCoin(Coin coin){
       set.add(coin);
    }
 
+   /**
+    * Remove coin of said coin
+    * @param coin
+    */
    public void removeCoin(Coin coin) {
       set.remove(coin);
    }
+
+   /**
+    * Remove coin at said index
+    * @param index
+    */
    public void removeCoin(int index){
       set.remove(index);
    }
 
+   /**
+    *
+    * @return the arraylist of the coins
+    */
    public ArrayList<Coin> getSet() {
       return set;
    }

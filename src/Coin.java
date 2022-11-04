@@ -19,6 +19,10 @@ public class Coin
 
    //ADD REMAINING CODE HERE
 
+   /**
+    *
+    * @return value of coin
+    */
    public double getValue() {
       return value;
    }
